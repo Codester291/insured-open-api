@@ -1,6 +1,0 @@
-com/example/insuredopenapi/service/BlogServiceTest.java
- com.example.insuredopenapi.service.BlogServiceTest
-com/example/insuredopenapi/controller/BlogControllerTest.java
- com.example.insuredopenapi.controller.BlogControllerTest
-com/example/insuredopenapi/InsuredOpenApiApplicationTests.java
- com.example.insuredopenapi.InsuredOpenApiApplicationTests
