@@ -10,6 +10,10 @@ name: insured
 region: nyc
 services:
   - dockerfile_path: Dockerfile
+    envs:
+      - key: DATABASE_URL
+        scope: BUILD_TIME
+        value: mysql://doadmin:nykcbomy4nt2n2xx@insureddb-do-user-8205911-0.b.db.ondigitalocean.com:25060/blog_data?ssl-mode=REQUIRED
     github:
       branch: main
       deploy_on_push: true
