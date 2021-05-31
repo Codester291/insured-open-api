@@ -19,7 +19,7 @@ public class BlogService {
 
     public ResponseEntity<ResponseDto> addBlog(BlogDto blogDto) {
         var blog = modelMapper.map(blogDto, Blog.class);
-        return ResponseEntity.ok(new ResponseDto("00", SUCCESSFUL, blog));
+        return ResponseEntity.ok(new ResponseDto("00", SUCCESSFUL, blogRepository.save(blog)));
     }
 
     public ResponseEntity<ResponseDto> fetchBlog() {
