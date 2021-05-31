@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.240s</div>
+<div class="counter">0.148s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">addBlog()</td>
-<td class="success">0.069s</td>
+<td class="success">0.037s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fetchBlog()</td>
-<td class="success">0.162s</td>
+<td class="success">0.105s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fetchOneBlog()</td>
-<td class="success">0.009s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,12 +97,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2021-05-31 15:09:15.320  INFO 9644 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.insuredopenapi.service.BlogServiceTest], using SpringBootContextLoader
-2021-05-31 15:09:15.321  INFO 9644 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.insuredopenapi.service.BlogServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-05-31 15:09:15.322  INFO 9644 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.insuredopenapi.service.BlogServiceTest]: BlogServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-05-31 15:09:15.333  INFO 9644 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.insuredopenapi.InsuredOpenApiApplication for test class com.example.insuredopenapi.service.BlogServiceTest
-2021-05-31 15:09:15.335  INFO 9644 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2021-05-31 15:09:15.336  INFO 9644 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3fde095c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f1b904e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@586954f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@598f5c9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16d43a18, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25fe416c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37226fd3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14eaae17, org.springframework.test.context.event.EventPublishingTestExecutionListener@23595268, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74fb924e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@500327f5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@11d8a1f4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@787b7bb5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@503aff16, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@194f466b]
+<pre>2021-05-31 20:11:23.302  INFO 13245 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.insuredopenapi.service.BlogServiceTest], using SpringBootContextLoader
+2021-05-31 20:11:23.303  INFO 13245 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.insuredopenapi.service.BlogServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-05-31 20:11:23.303  INFO 13245 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.insuredopenapi.service.BlogServiceTest]: BlogServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-05-31 20:11:23.309  INFO 13245 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.insuredopenapi.InsuredOpenApiApplication for test class com.example.insuredopenapi.service.BlogServiceTest
+2021-05-31 20:11:23.310  INFO 13245 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-05-31 20:11:23.311  INFO 13245 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f1b904e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@586954f4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@598f5c9c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16d43a18, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25fe416c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@37226fd3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@14eaae17, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@23595268, org.springframework.test.context.event.EventPublishingTestExecutionListener@74fb924e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@500327f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@11d8a1f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@787b7bb5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@503aff16, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@194f466b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d4c93b7]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -112,20 +112,20 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.0)
 
-2021-05-31 15:09:15.378  INFO 9644 --- [    Test worker] c.e.i.service.BlogServiceTest            : Starting BlogServiceTest using Java 15.0.2 on Esls-MBP with PID 9644 (started by eslcloud in /Users/tolani/Documents/learn-projects/insured-open-api)
-2021-05-31 15:09:15.380  INFO 9644 --- [    Test worker] c.e.i.service.BlogServiceTest            : No active profile set, falling back to default profiles: default
-2021-05-31 15:09:15.579  INFO 9644 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-31 15:09:15.589  INFO 9644 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-2021-05-31 15:09:15.891  INFO 9644 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-31 15:09:15.898  INFO 9644 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2021-05-31 15:09:15.900  INFO 9644 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2021-05-31 15:09:15.901  INFO 9644 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-05-31 15:09:15.975  INFO 9644 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-31 15:09:15.976  INFO 9644 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-31 15:09:16.119  WARN 9644 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-31 15:09:16.535  INFO 9644 --- [    Test worker] c.e.i.service.BlogServiceTest            : Started BlogServiceTest in 1.196 seconds (JVM running for 15.841)
-2021-05-31 15:09:16.536  INFO 9644 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
-2021-05-31 15:09:16.537  INFO 9644 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-31 20:11:23.329  INFO 13245 --- [    Test worker] c.e.i.service.BlogServiceTest            : Starting BlogServiceTest using Java 15.0.2 on Esls-MBP with PID 13245 (started by eslcloud in /Users/tolani/Documents/learn-projects/insured-open-api)
+2021-05-31 20:11:23.330  INFO 13245 --- [    Test worker] c.e.i.service.BlogServiceTest            : No active profile set, falling back to default profiles: default
+2021-05-31 20:11:23.440  INFO 13245 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-31 20:11:23.446  INFO 13245 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2021-05-31 20:11:23.599  INFO 13245 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-31 20:11:23.603  INFO 13245 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-05-31 20:11:23.604  INFO 13245 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-05-31 20:11:23.604  INFO 13245 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-31 20:11:23.648  INFO 13245 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-31 20:11:23.649  INFO 13245 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-31 20:11:23.719  WARN 13245 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-31 20:11:23.938  INFO 13245 --- [    Test worker] c.e.i.service.BlogServiceTest            : Started BlogServiceTest in 0.625 seconds (JVM running for 8.114)
+2021-05-31 20:11:23.938  INFO 13245 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-05-31 20:11:23.939  INFO 13245 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 </pre>
 </span>
 </div>
@@ -137,7 +137,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.0.2</a> at May 31, 2021, 3:09:17 PM</p>
+<a href="http://www.gradle.org">Gradle 7.0.2</a> at May 31, 2021, 8:11:24 PM</p>
 </div>
 </div>
 </body>
