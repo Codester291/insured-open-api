@@ -2,6 +2,6 @@ FROM openjdk:11-jre-stretch
 LABEL maintainer="Olatunde Omotolani "torhlarny15@gmail.com""
 
 EXPOSE 8000
-COPY --from=build ./build/libs/insured-open-api-0.0.1-SNAPSHOT.jar insured.jar
+ADD ./build/libs/insured-open-api-0.0.1-SNAPSHOT.jar insured.jar
 
 CMD ["java", "-jar", "/insured.jar"]
